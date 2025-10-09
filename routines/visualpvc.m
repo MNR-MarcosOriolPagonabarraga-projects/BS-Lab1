@@ -31,7 +31,8 @@ for ini=0:5:20,
    plot(t4,(ecg(((ini+4)*2000)+1:((ini+4)*2000)+2000,1)))
    eval(['title(''ECG'  ''')']);
    xlabel('s')
-
-   pause
+   
+   pause;
 end
-close('all')
+
+clear all;
